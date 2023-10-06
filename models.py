@@ -78,7 +78,7 @@ def Alexnet(input):
     keras.layers.Dense(10) 
     ])
 
-    return Alexnet
+    return alex_net
 
 
 def identity_block(X, f, filters):
